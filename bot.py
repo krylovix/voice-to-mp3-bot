@@ -3,7 +3,7 @@ import subprocess
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-TOKEN = "8895726832:AAHQDHmOYY6NXPBuOE8PbNJ5xBm4V7d9zw4"
+TOKEN = "TOKEN = os.environ["BOT_TOKEN"]"
 
 
 async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
